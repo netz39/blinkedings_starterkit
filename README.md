@@ -15,5 +15,5 @@
 * Platinen: BEL 160X100-1
 
 
-CC-BY-SA 24367dfa & bastinat0r @ netz39
+CC-BY-SA 2.0 24367dfa & bastinat0r @ netz39
 -- no military use --
