@@ -13689,13 +13689,13 @@ Based on  the following source:
 </class>
 </classes>
 <parts>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="22µF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="100nF"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/7"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/7" value="150Ohm"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0204/7" value="91Ohm"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7" value="91Ohm"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="33u"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value="470n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/7" value="10k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0204/7" value="150"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/7" value="91"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/7" value="91"/>
 <part name="IC1" library="linear" deviceset="78*" device="TV" technology="8"/>
 <part name="IC2" library="atmel" deviceset="TINY13" device="PU" technology="-20"/>
 <part name="LED1" library="led" deviceset="LRTB_G6SG" device=""/>
