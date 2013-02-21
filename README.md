@@ -10,7 +10,7 @@
 * ATTiny: ATiny 85-20 PU
 * LM2940 (Spannungsregler): LM 2940 CT5
 * Kondensatoren:
-  * Ladekondensator(22μF, 50V): RAD FC 22/50
+  * Ladekondensator(>=22μF, elko): RAD FC 47/25
   * 2* 100nF: Z5U-2,5 100N
 * Platinen: BEL 160X100-1
 
