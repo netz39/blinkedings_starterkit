@@ -13807,6 +13807,8 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-7.62" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="0" y1="76.2" x2="0" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="0" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
+<junction x="0" y="71.12"/>
+<junction x="0" y="76.2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
