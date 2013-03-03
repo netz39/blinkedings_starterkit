@@ -13786,9 +13786,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="152.4" y1="38.1" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <junction x="40.64" y="30.48"/>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="-5.08" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="0" y1="68.58" x2="0" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="0" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="58.42" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
 <junction x="40.64" y="58.42"/>
@@ -13802,6 +13799,14 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="152.4" y="48.26"/>
 <junction x="152.4" y="58.42"/>
 <wire x1="152.4" y1="48.26" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="58.42" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="0" y1="71.12" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="0" y1="71.12" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="S1"/>
+<wire x1="-7.62" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="0" y1="76.2" x2="0" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="0" y1="78.74" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
