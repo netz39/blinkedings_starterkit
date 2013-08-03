@@ -5968,7 +5968,11 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-7.62" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="0" y1="76.2" x2="0" y2="78.74" width="0.1524" layer="91"/>
 <junction x="0" y="76.2"/>
-<wire x1="0" y1="76.2" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="76.2" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="0" y1="71.12" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<junction x="0" y="71.12"/>
 </segment>
 </net>
 <net name="VCC" class="0">
