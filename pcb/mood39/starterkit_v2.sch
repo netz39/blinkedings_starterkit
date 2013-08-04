@@ -14998,6 +14998,8 @@ Source: Panasonic</description>
 </class>
 <class number="1" name="supply" width="0.4064" drill="0">
 </class>
+<class number="2" name="signal" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LED1" library="led" deviceset="LRTB_G6SG" device=""/>
@@ -15053,7 +15055,7 @@ Source: Panasonic</description>
 <busses>
 </busses>
 <nets>
-<net name="PB4" class="0">
+<net name="PB4" class="2">
 <segment>
 <pinref part="LED1" gate="-3" pin="A"/>
 <wire x1="106.68" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
@@ -15063,7 +15065,7 @@ Source: Panasonic</description>
 <label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="MISO" class="2">
 <segment>
 <pinref part="LED1" gate="-2" pin="A"/>
 <pinref part="IC1" gate="G$1" pin="(MISO)PB1"/>
@@ -15076,7 +15078,7 @@ Source: Panasonic</description>
 <label x="73.66" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB3" class="0">
+<net name="PB3" class="2">
 <segment>
 <pinref part="LED1" gate="-1" pin="A"/>
 <wire x1="106.68" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
@@ -15187,7 +15189,7 @@ Source: Panasonic</description>
 <label x="99.06" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="_RESET" class="0">
+<net name="_RESET" class="2">
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
 <wire x1="71.12" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
@@ -15201,28 +15203,28 @@ Source: Panasonic</description>
 <label x="38.1" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="2">
 <segment>
 <pinref part="LED1" gate="-3" pin="C"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="2">
 <segment>
 <pinref part="LED1" gate="-2" pin="C"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="2">
 <segment>
 <pinref part="LED1" gate="-1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="SCK" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SCK)PB2"/>
 <wire x1="81.28" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
@@ -15238,7 +15240,7 @@ Source: Panasonic</description>
 <label x="73.66" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
+<net name="MOSI" class="2">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(MOSI)PB0"/>
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
@@ -15276,7 +15278,7 @@ Source: Panasonic</description>
 <label x="-15.24" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="2">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
