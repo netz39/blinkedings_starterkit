@@ -14996,6 +14996,8 @@ Source: Panasonic</description>
 <class number="0" name="default" width="0" drill="0">
 <clearance class="0" value="0.355"/>
 </class>
+<class number="1" name="supply" width="0.4064" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LED1" library="led" deviceset="LRTB_G6SG" device=""/>
@@ -15012,7 +15014,7 @@ Source: Panasonic</description>
 <part name="IC2" library="v-reg" deviceset="78XXS" device="" value="LM2940"/>
 <part name="X3" library="con-wago-500" deviceset="W237-102" device="" value="PWRUNREG"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47u"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="025-025X050" value="470n"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="R5" library="pot" deviceset="EVU" device="A" technology="F2"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device="" value="I2CDAT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -15084,7 +15086,7 @@ Source: Panasonic</description>
 <label x="83.82" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
@@ -15145,7 +15147,7 @@ Source: Panasonic</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
@@ -15262,7 +15264,7 @@ Source: Panasonic</description>
 <wire x1="96.52" y1="27.94" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="V+" class="1">
 <segment>
 <pinref part="X3" gate="-1" pin="KL"/>
 <pinref part="IC2" gate="1" pin="IN"/>
@@ -15271,6 +15273,7 @@ Source: Panasonic</description>
 <wire x1="-10.16" y1="78.74" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="68.58" x2="-10.16" y2="78.74" width="0.1524" layer="91"/>
 <junction x="-10.16" y="78.74"/>
+<label x="-15.24" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
