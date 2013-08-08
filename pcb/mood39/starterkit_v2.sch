@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14545,6 +14545,8 @@ Rastermaß 5,08 mm</description>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
 <part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value=""/>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14574,6 +14576,8 @@ Rastermaß 5,08 mm</description>
 <instance part="R6" gate="G$1" x="30.48" y="58.42"/>
 <instance part="S1" gate="S$1" x="73.66" y="50.8" rot="R270"/>
 <instance part="U$1" gate="G$1" x="-30.48" y="88.9" rot="R180"/>
+<instance part="JP2" gate="G$1" x="121.92" y="38.1"/>
+<instance part="JP3" gate="G$1" x="121.92" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -14782,13 +14786,21 @@ Rastermaß 5,08 mm</description>
 <net name="USBD-" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<label x="99.06" y="33.02" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="30.48" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="35.56" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="35.56" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V+" class="1">
