@@ -14098,118 +14098,6 @@ Low profile connectors, straight&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-berg">
-<description>&lt;b&gt;Berg Connectors&lt;/b&gt;&lt;p&gt;
-Based on  the following source:
-&lt;ul&gt;
-&lt;li&gt;http://catalog.fciconnect.com
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="PN61729">
-<description>&lt;b&gt;USB connector&lt;/b&gt;</description>
-<wire x1="-5.9" y1="5.6" x2="-5.9" y2="-10.15" width="0.254" layer="21"/>
-<wire x1="-5.9" y1="-10.15" x2="5.9" y2="-10.15" width="0.254" layer="21"/>
-<wire x1="5.9" y1="-10.15" x2="5.9" y2="5.6" width="0.254" layer="21"/>
-<wire x1="5.9" y1="5.6" x2="-5.9" y2="5.6" width="0.254" layer="21"/>
-<wire x1="-2.46" y1="-0.27" x2="-2.46" y2="0.73" width="0.0508" layer="21" curve="180"/>
-<wire x1="-2.46" y1="-1.27" x2="-2.46" y2="-0.27" width="0.0508" layer="21" curve="180"/>
-<wire x1="3.665" y1="0.23" x2="3.665" y2="-0.77" width="0.0508" layer="21" curve="180"/>
-<wire x1="3.415" y1="0.73" x2="3.415" y2="-1.27" width="0.0508" layer="21" curve="180"/>
-<wire x1="3.665" y1="0.23" x2="4.165" y2="0.23" width="0.0508" layer="21" curve="-15.189287"/>
-<wire x1="3.415" y1="0.73" x2="4.175" y2="0.675" width="0.0508" layer="21" curve="-12.05913"/>
-<wire x1="3.415" y1="-1.27" x2="4.165" y2="-1.145" width="0.0508" layer="21" curve="18.422836"/>
-<wire x1="1.665" y1="-0.52" x2="1.665" y2="0.73" width="0.0508" layer="21" curve="180"/>
-<wire x1="1.29" y1="-0.145" x2="1.29" y2="0.23" width="0.0508" layer="21" curve="180"/>
-<wire x1="-3.835" y1="0.73" x2="-3.835" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="-3.835" y1="-1.27" x2="-3.21" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="-3.21" y1="-1.27" x2="-3.21" y2="-0.27" width="0.0508" layer="21"/>
-<wire x1="-3.21" y1="-0.27" x2="-3.21" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="-3.21" y1="0.73" x2="-3.835" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="-3.21" y1="0.73" x2="-2.46" y2="0.23" width="0.0508" layer="21"/>
-<wire x1="-2.46" y1="0.23" x2="-3.21" y2="-0.27" width="0.0508" layer="21"/>
-<wire x1="-3.21" y1="-0.27" x2="-2.46" y2="-0.77" width="0.0508" layer="21"/>
-<wire x1="-2.46" y1="-0.77" x2="-3.21" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="-2.46" y1="-1.27" x2="-3.21" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="-2.46" y1="0.73" x2="-3.21" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="-1.71" y1="0.73" x2="-1.71" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="-1.71" y1="-1.27" x2="0.04" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="-1.27" x2="0.04" y2="-0.77" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="-0.77" x2="-1.085" y2="-0.77" width="0.0508" layer="21"/>
-<wire x1="-1.085" y1="-0.77" x2="-1.085" y2="-0.52" width="0.0508" layer="21"/>
-<wire x1="-1.085" y1="-0.52" x2="0.04" y2="-0.52" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="-0.52" x2="0.04" y2="-0.02" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="-0.02" x2="-1.085" y2="-0.02" width="0.0508" layer="21"/>
-<wire x1="-1.085" y1="-0.02" x2="-1.085" y2="0.23" width="0.0508" layer="21"/>
-<wire x1="-1.085" y1="0.23" x2="0.04" y2="0.23" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="0.23" x2="0.04" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="0.04" y1="0.73" x2="-1.71" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="0.29" y1="0.73" x2="0.29" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="0.29" y1="-1.27" x2="0.915" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="0.915" y1="-1.27" x2="0.915" y2="-0.52" width="0.0508" layer="21"/>
-<wire x1="0.915" y1="-0.52" x2="1.415" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="1.415" y1="-1.27" x2="2.165" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="2.165" y1="-1.27" x2="1.665" y2="-0.52" width="0.0508" layer="21"/>
-<wire x1="0.915" y1="0.23" x2="0.915" y2="-0.145" width="0.0508" layer="21"/>
-<wire x1="0.29" y1="0.73" x2="1.665" y2="0.73" width="0.0508" layer="21"/>
-<wire x1="0.915" y1="0.23" x2="1.29" y2="0.23" width="0.0508" layer="21"/>
-<wire x1="0.915" y1="-0.145" x2="1.29" y2="-0.145" width="0.0508" layer="21"/>
-<wire x1="3.665" y1="-0.27" x2="4.165" y2="-0.27" width="0.0508" layer="21"/>
-<wire x1="3.665" y1="-0.27" x2="3.665" y2="-0.77" width="0.0508" layer="21"/>
-<wire x1="4.16" y1="0.23" x2="4.16" y2="0.675" width="0.0508" layer="21"/>
-<wire x1="4.165" y1="-0.27" x2="4.165" y2="-1.145" width="0.0508" layer="21"/>
-<pad name="1" x="1.25" y="4.71" drill="0.95" shape="octagon"/>
-<pad name="2" x="-1.25" y="4.71" drill="0.95" shape="octagon"/>
-<pad name="3" x="-1.25" y="2.71" drill="0.95" shape="octagon"/>
-<pad name="4" x="1.25" y="2.71" drill="0.95" shape="octagon"/>
-<text x="-6.35" y="6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="7.62" y="-8.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-3.81" y="-2.04" size="0.4064" layer="21">E L E C T R O N I C S</text>
-<hole x="-6.02" y="0" drill="2.3"/>
-<hole x="6.02" y="0" drill="2.3"/>
-</package>
-</packages>
-<symbols>
-<symbol name="J11">
-<wire x1="0" y1="7.62" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="0" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="5.08" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-2.54" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PN61729" prefix="X" uservalue="yes">
-<description>&lt;b&gt;BERG&lt;/b&gt; USB connector</description>
-<gates>
-<gate name="G$1" symbol="J11" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="PN61729">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="v-reg">
 <description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -14387,6 +14275,34 @@ Rastermaß 5,08 mm</description>
 <rectangle x1="-3.95" y1="-2.6" x2="-3" y2="-1.9" layer="51"/>
 <rectangle x1="-3.95" y1="1.9" x2="-3" y2="2.6" layer="51"/>
 </package>
+<package name="USB_B_UP">
+<pad name="2" x="-1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="1" x="1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="4" x="1.25" y="0" drill="0.95" shape="octagon"/>
+<pad name="3" x="-1.25" y="0" drill="0.95" shape="octagon"/>
+<hole x="-6" y="0.7" drill="2.3"/>
+<hole x="6" y="0.7" drill="2.3"/>
+<wire x1="-6" y1="7.1" x2="6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="6" y1="7.1" x2="6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="6" y1="-3.9" x2="-6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3.9" x2="-6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="-2.3" x2="4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="4.3" y1="-2.3" x2="4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="4.3" y1="4" x2="2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="2.8" y1="5.5" x2="-2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="5.5" x2="-4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="4" x2="-4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="3.2" x2="2.8" y2="3.2" width="0.127" layer="51"/>
+<wire x1="2.8" y1="3.2" x2="2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="2.8" y1="0" x2="-2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="0" x2="-2.8" y2="3.2" width="0.127" layer="51"/>
+<rectangle x1="-1.75" y1="3.2" x2="-0.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="3.2" x2="1.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="-0.3" x2="1.75" y2="0" layer="51"/>
+<rectangle x1="-1.75" y1="-0.3" x2="-0.75" y2="0" layer="51"/>
+<text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="2POL">
@@ -14443,6 +14359,19 @@ Rastermaß 5,08 mm</description>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+<symbol name="USB">
+<description>USB 1.x or 2.x connector</description>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.3048" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.3048" layer="94"/>
+<text x="-3.048" y="-3.556" size="3.81" layer="94" rot="R90">USB</text>
+<pin name="VBUS" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="D-" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="D+" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<text x="-7.366" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.366" y="-7.366" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -14507,6 +14436,27 @@ Rastermaß 5,08 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB_B">
+<description>USB 1.x and 2.x series "B" receptable interface</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB_B_UP">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="REICHELT" value="USB BG" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -14534,7 +14484,6 @@ Rastermaß 5,08 mm</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="91"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="91"/>
 <part name="SV1" library="con-ml" deviceset="ML6" device="" value="ISP"/>
-<part name="X1" library="con-berg" deviceset="PN61729" device="" value="PWRUSB"/>
 <part name="IC2" library="v-reg" deviceset="78XXS" device="" value="LM2940"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47u"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
@@ -14547,6 +14496,7 @@ Rastermaß 5,08 mm</description>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="U$2" library="n39" deviceset="USB_B" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14565,7 +14515,6 @@ Rastermaß 5,08 mm</description>
 <instance part="R3" gate="G$1" x="124.46" y="68.58"/>
 <instance part="R4" gate="G$1" x="124.46" y="58.42"/>
 <instance part="SV1" gate="1" x="63.5" y="35.56"/>
-<instance part="X1" gate="G$1" x="93.98" y="35.56" rot="R180"/>
 <instance part="IC2" gate="1" x="-5.08" y="91.44"/>
 <instance part="C2" gate="G$1" x="7.62" y="78.74"/>
 <instance part="C3" gate="G$1" x="-17.78" y="78.74"/>
@@ -14576,8 +14525,9 @@ Rastermaß 5,08 mm</description>
 <instance part="R6" gate="G$1" x="30.48" y="58.42"/>
 <instance part="S1" gate="S$1" x="73.66" y="50.8" rot="R270"/>
 <instance part="U$1" gate="G$1" x="-30.48" y="88.9" rot="R180"/>
-<instance part="JP2" gate="G$1" x="121.92" y="38.1"/>
-<instance part="JP3" gate="G$1" x="121.92" y="30.48"/>
+<instance part="JP2" gate="G$1" x="132.08" y="25.4"/>
+<instance part="JP3" gate="G$1" x="132.08" y="38.1"/>
+<instance part="U$2" gate="G$1" x="93.98" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -14674,9 +14624,9 @@ Rastermaß 5,08 mm</description>
 <label x="48.26" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="4"/>
-<wire x1="96.52" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
-<label x="99.06" y="38.1" size="1.778" layer="95"/>
+<wire x1="106.68" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<label x="109.22" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R5" gate="R$1" pin="A"/>
@@ -14720,9 +14670,9 @@ Rastermaß 5,08 mm</description>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<label x="99.06" y="30.48" size="1.778" layer="95"/>
+<wire x1="106.68" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
+<label x="109.22" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$5" class="2">
@@ -14785,22 +14735,22 @@ Rastermaß 5,08 mm</description>
 </net>
 <net name="USBD-" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<label x="99.06" y="33.02" size="1.778" layer="95"/>
+<wire x1="106.68" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<label x="109.22" y="33.02" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="30.48" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="38.1" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="35.56" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<label x="99.06" y="35.56" size="1.778" layer="95"/>
+<wire x1="106.68" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
+<label x="109.22" y="30.48" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="V+" class="1">
