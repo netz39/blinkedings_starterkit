@@ -14102,32 +14102,54 @@ Low profile connectors, straight&lt;p&gt;
 <description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="78XXS">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
-<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
-<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="IN" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">-</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
-<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
-<rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
-<rectangle x1="-0.889" y1="-0.762" x2="0.889" y2="0" layer="21"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="0" layer="21"/>
-<rectangle x1="1.651" y1="-0.762" x2="3.429" y2="0" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+<package name="TO92">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.78104"/>
+<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.318477"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.09954"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.293591"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="DPACK">
+<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 369C-01&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -14147,20 +14169,48 @@ Low profile connectors, straight&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="78XXS" prefix="IC" uservalue="yes">
-<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<deviceset name="LP2950?*" prefix="IC">
+<description>Source: http://cache.national.com/ds/LP/LP2950.pdf</description>
 <gates>
-<gate name="1" symbol="78XX" x="0" y="0"/>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="78XXS">
+<device name="CZ" package="TO92">
 <connects>
-<connect gate="1" pin="GND" pad="GND"/>
-<connect gate="1" pin="IN" pad="IN"/>
-<connect gate="1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="-3.0"/>
+<technology name="-3.3"/>
+<technology name="-5.0"/>
+</technologies>
+</device>
+<device name="CDT" package="DPACK">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="-3.0"/>
+<technology name="-3.3"/>
+<technology name="-5.0"/>
+<technology name="X-3.0"/>
+<technology name="X-3.3"/>
+</technologies>
+</device>
+<device name="ACZ" package="TO92">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="-3.0"/>
+<technology name="-3.3"/>
+<technology name="-5.0"/>
 </technologies>
 </device>
 </devices>
@@ -14484,9 +14534,8 @@ Rastermaß 5,08 mm</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="91"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="91"/>
 <part name="SV1" library="con-ml" deviceset="ML6" device="" value="ISP"/>
-<part name="IC2" library="v-reg" deviceset="78XXS" device="" value="LM2940"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47u"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="470n"/>
+<part name="IC2" library="v-reg" deviceset="LP2950?*" device="ACZ" technology="-5.0" value="LP2950"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="2.2u"/>
 <part name="R5" library="n39" deviceset="ALPS_RK09K113" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device="" value="I2CDAT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -14515,9 +14564,8 @@ Rastermaß 5,08 mm</description>
 <instance part="R3" gate="G$1" x="124.46" y="68.58"/>
 <instance part="R4" gate="G$1" x="124.46" y="58.42"/>
 <instance part="SV1" gate="1" x="63.5" y="35.56"/>
-<instance part="IC2" gate="1" x="-5.08" y="91.44"/>
+<instance part="IC2" gate="G$1" x="-5.08" y="91.44"/>
 <instance part="C2" gate="G$1" x="7.62" y="78.74"/>
-<instance part="C3" gate="G$1" x="-17.78" y="78.74"/>
 <instance part="R5" gate="R$1" x="83.82" y="91.44" rot="MR270"/>
 <instance part="JP1" gate="G$1" x="88.9" y="50.8" rot="R270"/>
 <instance part="GND2" gate="1" x="91.44" y="86.36"/>
@@ -14590,8 +14638,8 @@ Rastermaß 5,08 mm</description>
 <wire x1="129.54" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
 <junction x="137.16" y="58.42"/>
 <junction x="137.16" y="68.58"/>
-<pinref part="IC2" gate="1" pin="GND"/>
-<wire x1="-17.78" y1="45.72" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<wire x1="-22.86" y1="45.72" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="83.82" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
@@ -14599,9 +14647,6 @@ Rastermaß 5,08 mm</description>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="7.62" y1="73.66" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="7.62" y="45.72"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="73.66" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-17.78" y="45.72"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <junction x="38.1" y="45.72"/>
@@ -14616,7 +14661,6 @@ Rastermaß 5,08 mm</description>
 <pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="88.9" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="88.9" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="6"/>
@@ -14647,7 +14691,7 @@ Rastermaß 5,08 mm</description>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="15.24" y1="91.44" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="15.24" y="91.44"/>
-<pinref part="IC2" gate="1" pin="OUT"/>
+<pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="2.54" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="7.62" y1="91.44" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
@@ -14755,13 +14799,9 @@ Rastermaß 5,08 mm</description>
 </net>
 <net name="V+" class="1">
 <segment>
-<pinref part="IC2" gate="1" pin="IN"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="81.28" x2="-17.78" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="IN"/>
 <label x="-15.24" y="91.44" size="1.778" layer="95"/>
-<wire x1="-25.4" y1="91.44" x2="-17.78" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-17.78" y="91.44"/>
+<wire x1="-25.4" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
 </segment>
 </net>
