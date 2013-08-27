@@ -32,11 +32,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
@@ -64,6 +64,15 @@
 <hole x="2" y="2" drill="3.2"/>
 <hole x="30" y="2" drill="3.2"/>
 <hole x="2" y="30" drill="3.2"/>
+<text x="27.94" y="29.5275" size="1.27" layer="16" ratio="13" rot="MR0">mood39 v2.0</text>
+<text x="31.115" y="23.1775" size="0.8128" layer="16" ratio="13" rot="MR0">Netz39 e.V.</text>
+<text x="31.115" y="21.9075" size="0.8128" layer="16" ratio="13" rot="MR0">CC BY-SA</text>
+<polygon width="0.3048" layer="42">
+<vertex x="21.59" y="11.7475"/>
+<vertex x="22.225" y="12.3825"/>
+<vertex x="22.225" y="11.7475"/>
+</polygon>
+<circle x="0.9525" y="18.0975" radius="0.508" width="0" layer="16"/>
 </plain>
 <libraries>
 <library name="led">
@@ -1756,7 +1765,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="1"/>
 <contactref element="U$2" pad="4"/>
 <contactref element="R5" pad="1"/>
-<wire x1="21.2725" y1="3.81" x2="22.86" y2="9.8425" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="9.8425" x2="21.2725" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="IC1" pad="8"/>
@@ -1929,8 +1938,6 @@ design rules under a new name.</description>
 <signal name="!RESET" class="2">
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="1.905" y1="20.32" x2="1.905" y2="16.83" width="0.3048" layer="16"/>
-<wire x1="1.905" y1="16.83" x2="2.225" y2="16.51" width="0.3048" layer="16"/>
 <contactref element="SV1" pad="5"/>
 <wire x1="1.905" y1="25.4" x2="7.3025" y2="30.7975" width="0.3048" layer="16"/>
 <wire x1="14.2875" y1="26.035" x2="15.5575" y2="27.305" width="0.3048" layer="16"/>
@@ -1938,6 +1945,9 @@ design rules under a new name.</description>
 <wire x1="15.5575" y1="29.21" x2="13.97" y2="30.7975" width="0.3048" layer="16"/>
 <wire x1="13.97" y1="30.7975" x2="7.3025" y2="30.7975" width="0.3048" layer="16"/>
 <wire x1="1.905" y1="25.4" x2="1.905" y2="20.32" width="0.3048" layer="16"/>
+<wire x1="2.225" y1="16.51" x2="2.225" y2="18.4125" width="0.3048" layer="16"/>
+<wire x1="2.225" y1="18.4125" x2="1.905" y2="18.7325" width="0.3048" layer="16"/>
+<wire x1="1.905" y1="18.7325" x2="1.905" y2="20.32" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$3">
 <via x="20.0025" y="8.255" extent="1-16" drill="0.6" shape="octagon"/>
