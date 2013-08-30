@@ -27,4 +27,4 @@ Complete new design started at OHM2013 …
 
 ### License
 
-mood39 aka Starterkit v2.0 von Netz39 e.V. steht unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz] <http://creativecommons.org/licenses/by-sa/3.0/deed.de>
+mood39 aka Starterkit v2.0 von Netz39 e.V. steht unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz](http://creativecommons.org/licenses/by-sa/3.0/deed.de).
