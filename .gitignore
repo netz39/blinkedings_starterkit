@@ -1,5 +1,2 @@
 # vim swapfiles
 *.swp
-# eagle autosave files
-*.b#*
-*.s#*
