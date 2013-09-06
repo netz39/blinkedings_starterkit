@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -14353,6 +14353,34 @@ Rastermaß 5,08 mm</description>
 <text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.715" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="USB_B_UP-S">
+<pad name="2" x="-1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="1" x="1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="4" x="1.25" y="0" drill="0.95" shape="octagon"/>
+<pad name="3" x="-1.25" y="0" drill="0.95" shape="octagon"/>
+<wire x1="-6" y1="7.1" x2="6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="6" y1="7.1" x2="6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="6" y1="-3.9" x2="-6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3.9" x2="-6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="-2.3" x2="4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="4.3" y1="-2.3" x2="4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="4.3" y1="4" x2="2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="2.8" y1="5.5" x2="-2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="5.5" x2="-4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="4" x2="-4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="3.2" x2="2.8" y2="3.2" width="0.127" layer="51"/>
+<wire x1="2.8" y1="3.2" x2="2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="2.8" y1="0" x2="-2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="0" x2="-2.8" y2="3.2" width="0.127" layer="51"/>
+<rectangle x1="-1.75" y1="3.2" x2="-0.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="3.2" x2="1.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="-0.3" x2="1.75" y2="0" layer="51"/>
+<rectangle x1="-1.75" y1="-0.3" x2="-0.75" y2="0" layer="51"/>
+<text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="P$1" x="6" y="0.7" drill="2.3"/>
+<pad name="P$2" x="-6" y="0.7" drill="2.3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2POL">
@@ -14505,6 +14533,19 @@ Rastermaß 5,08 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="S" package="USB_B_UP-S">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="REICHELT" value="USB BG" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -14545,7 +14586,7 @@ Rastermaß 5,08 mm</description>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="U$2" library="n39" deviceset="USB_B" device=""/>
+<part name="U$2" library="n39" deviceset="USB_B" device="S" value="USB_BS"/>
 </parts>
 <sheets>
 <sheet>
