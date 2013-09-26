@@ -14473,7 +14473,7 @@ Rastermaß 5,08 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALPS_RK09K113">
+<deviceset name="ALPS_RK09K113" prefix="R">
 <description>&lt;b&gt;ALPS Drehpoti. linear, 6mm, mono, 10K, vertikal&lt;/b&gt;</description>
 <gates>
 <gate name="R$1" symbol="POTENTIOMETER" x="0" y="0"/>
@@ -14614,8 +14614,8 @@ Rastermaß 5,08 mm</description>
 <instance part="R6" gate="G$1" x="30.48" y="58.42"/>
 <instance part="S1" gate="S$1" x="73.66" y="50.8" rot="R270"/>
 <instance part="U$1" gate="G$1" x="-30.48" y="88.9" rot="R180"/>
-<instance part="JP2" gate="G$1" x="132.08" y="25.4"/>
-<instance part="JP3" gate="G$1" x="132.08" y="38.1"/>
+<instance part="JP2" gate="G$1" x="132.08" y="22.86"/>
+<instance part="JP3" gate="G$1" x="132.08" y="30.48"/>
 <instance part="U$2" gate="G$1" x="93.98" y="30.48"/>
 </instances>
 <busses>
@@ -14755,9 +14755,13 @@ Rastermaß 5,08 mm</description>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
-<label x="109.22" y="35.56" size="1.778" layer="95"/>
+<label x="129.54" y="40.64" size="1.778" layer="95"/>
+<wire x1="111.76" y1="40.64" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VBUS"/>
+<wire x1="111.76" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="2">
@@ -14822,19 +14826,19 @@ Rastermaß 5,08 mm</description>
 </net>
 <net name="USBD-" class="0">
 <segment>
-<wire x1="106.68" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="33.02" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="109.22" y="33.02" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="38.1" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
 <segment>
 <wire x1="106.68" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="30.48" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="109.22" y="30.48" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="D+"/>
