@@ -1495,7 +1495,7 @@ Rastermaß 5,08 mm</description>
 <class number="2" name="signal" width="0.254" drill="0">
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="starterkit_v2">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
