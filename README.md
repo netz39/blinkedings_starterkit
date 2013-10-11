@@ -19,12 +19,11 @@ Erste Version für den Tag der offenen Tür im März 2013 und für den *AVR 101*
 CC-BY-SA 2.0 24367dfa & bastinat0r @ netz39
 -- no military use --
 
-## v2.0
+## v2.x
 Complete new design started at OHM2013 …
 
 ### Part List
-*(to be done …)*
+* see our [Wiki](http://www.netz39.de/wiki/projects:2013:avr_starterkit#teile1)
 
 ### License
-
-mood39 aka Starterkit v2.0 von Netz39 e.V. steht unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported Lizenz](http://creativecommons.org/licenses/by-sa/3.0/deed.de).
+mood39 aka Starterkit v2.x von Netz39 e.V. is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License]( http://creativecommons.org/licenses/by-sa/3.0/).
