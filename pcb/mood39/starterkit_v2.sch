@@ -14353,6 +14353,34 @@ Rastermaß 5,08 mm</description>
 <text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.715" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="USB_B_UP-S">
+<pad name="2" x="-1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="1" x="1.25" y="3.2" drill="0.95" shape="octagon"/>
+<pad name="4" x="1.25" y="0" drill="0.95" shape="octagon"/>
+<pad name="3" x="-1.25" y="0" drill="0.95" shape="octagon"/>
+<wire x1="-6" y1="7.1" x2="6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="6" y1="7.1" x2="6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="6" y1="-3.9" x2="-6" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3.9" x2="-6" y2="7.1" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="-2.3" x2="4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="4.3" y1="-2.3" x2="4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="4.3" y1="4" x2="2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="2.8" y1="5.5" x2="-2.8" y2="5.5" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="5.5" x2="-4.3" y2="4" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="4" x2="-4.3" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="3.2" x2="2.8" y2="3.2" width="0.127" layer="51"/>
+<wire x1="2.8" y1="3.2" x2="2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="2.8" y1="0" x2="-2.8" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="0" x2="-2.8" y2="3.2" width="0.127" layer="51"/>
+<rectangle x1="-1.75" y1="3.2" x2="-0.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="3.2" x2="1.75" y2="3.5" layer="51"/>
+<rectangle x1="0.75" y1="-0.3" x2="1.75" y2="0" layer="51"/>
+<rectangle x1="-1.75" y1="-0.3" x2="-0.75" y2="0" layer="51"/>
+<text x="-5.715" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.715" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="P$1" x="6" y="0.7" drill="2.3"/>
+<pad name="P$2" x="-6" y="0.7" drill="2.3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2POL">
@@ -14445,7 +14473,7 @@ Rastermaß 5,08 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALPS_RK09K113">
+<deviceset name="ALPS_RK09K113" prefix="R">
 <description>&lt;b&gt;ALPS Drehpoti. linear, 6mm, mono, 10K, vertikal&lt;/b&gt;</description>
 <gates>
 <gate name="R$1" symbol="POTENTIOMETER" x="0" y="0"/>
@@ -14505,6 +14533,19 @@ Rastermaß 5,08 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="S" package="USB_B_UP-S">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="REICHELT" value="USB BG" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -14545,7 +14586,7 @@ Rastermaß 5,08 mm</description>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="U$2" library="n39" deviceset="USB_B" device=""/>
+<part name="U$2" library="n39" deviceset="USB_B" device="S" value="USB_BS"/>
 </parts>
 <sheets>
 <sheet>
@@ -14573,8 +14614,8 @@ Rastermaß 5,08 mm</description>
 <instance part="R6" gate="G$1" x="30.48" y="58.42"/>
 <instance part="S1" gate="S$1" x="73.66" y="50.8" rot="R270"/>
 <instance part="U$1" gate="G$1" x="-30.48" y="88.9" rot="R180"/>
-<instance part="JP2" gate="G$1" x="132.08" y="25.4"/>
-<instance part="JP3" gate="G$1" x="132.08" y="38.1"/>
+<instance part="JP2" gate="G$1" x="132.08" y="22.86"/>
+<instance part="JP3" gate="G$1" x="132.08" y="30.48"/>
 <instance part="U$2" gate="G$1" x="93.98" y="30.48"/>
 </instances>
 <busses>
@@ -14714,9 +14755,13 @@ Rastermaß 5,08 mm</description>
 <label x="48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
-<label x="109.22" y="35.56" size="1.778" layer="95"/>
+<label x="129.54" y="40.64" size="1.778" layer="95"/>
+<wire x1="111.76" y1="40.64" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VBUS"/>
+<wire x1="111.76" y1="35.56" x2="106.68" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="2">
@@ -14781,19 +14826,19 @@ Rastermaß 5,08 mm</description>
 </net>
 <net name="USBD-" class="0">
 <segment>
-<wire x1="106.68" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="33.02" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="109.22" y="33.02" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="38.1" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
 <segment>
 <wire x1="106.68" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="30.48" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="109.22" y="30.48" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="U$2" gate="G$1" pin="D+"/>
