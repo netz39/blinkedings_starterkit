@@ -14577,7 +14577,7 @@ Rastermaß 5,08 mm</description>
 <part name="SV1" library="con-ml" deviceset="ML6" device="" value="ISP"/>
 <part name="IC2" library="v-reg" deviceset="LP2950?*" device="ACZ" technology="-5.0" value="LP2950"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="2.2u"/>
-<part name="R5" library="n39" deviceset="ALPS_RK09K113" device=""/>
+<part name="R5" library="n39" deviceset="ALPS_RK09K113" device="" value="100k"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device="" value="I2CDAT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="rot lc"/>

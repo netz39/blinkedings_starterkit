@@ -1692,7 +1692,7 @@ design rules under a new name.</description>
 </element>
 <element name="IC2" library="v-reg" package="TO92" value="LP2950" x="22.5425" y="3.81" rot="R270"/>
 <element name="C2" library="rcl" package="E2-5" value="2.2u" x="27.6225" y="7.62" rot="R270"/>
-<element name="R5" library="n39" package="ALPS_RK09K113" value="ALPS_RK09K113" x="6.985" y="26.035"/>
+<element name="R5" library="n39" package="ALPS_RK09K113" value="100k" x="6.985" y="26.035"/>
 <element name="JP1" library="pinhead" package="1X01" value="I2CDAT" x="1.905" y="19.05"/>
 <element name="LED2" library="led" package="LED3MM" value="rot lc" x="4.1275" y="7.9375" rot="R225"/>
 <element name="R6" library="rcl" package="R0805" value="1.5k" x="6.985" y="13.6525" rot="MR270"/>
