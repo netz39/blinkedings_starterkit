@@ -1,0 +1,29 @@
+Partlist
+
+Exported from starterkit_v2.sch at 23.10.13 07:40
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device        Package       Library  Sheet
+
+C1       100n           C-EUC0805     C0805         rcl      1
+C2       2.2u           CPOL-EUE2-5   E2-5          rcl      1
+IC1      TINY85         TINY22P       DIL08         atmel    1
+IC2      LP2950         LP2950ACZ-5.0 TO92          v-reg    1
+JP1      I2CDAT         PINHD-1X1     1X01          pinhead  1
+JP2                     PINHD-1X1     1X01          pinhead  1
+JP3                     PINHD-1X1     1X01          pinhead  1
+LED1     LRTB_G6SG      LRTB_G6SG     LRTB_G6SG     led      1
+LED2     rot lc         LED3MM        LED3MM        led      1
+R1       10k            R-EU_R0805    R0805         rcl      1
+R2       120            R-EU_R0805    R0805         rcl      1
+R3       100            R-EU_R0805    R0805         rcl      1
+R4       180            R-EU_R0805    R0805         rcl      1
+R5       100k           ALPS_RK09K113 ALPS_RK09K113 n39      1
+R6       1.5k           R-EU_R0805    R0805         rcl      1
+S1                      JTP-1130C     JTP-1130      n39      1
+SV1      ISP            ML6           ML6           con-ml   1
+U$1      RIACON_101_2   RIACON_101_2  RIACON_101_2  n39      1
+U$2      USB_BS         USB_BS        USB_B_UP-S    n39      1
