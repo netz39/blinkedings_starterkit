@@ -14309,6 +14309,12 @@ Rastermaß 5,08 mm</description>
 <circle x="0" y="0" radius="3.201559375" width="0.2032" layer="51"/>
 <pad name="P$1" x="-4.4" y="0" drill="2.1" shape="square"/>
 <pad name="P$2" x="4.4" y="0" drill="2.1" shape="square"/>
+<circle x="0" y="-4.2" radius="0.7" width="0" layer="51"/>
+<circle x="3" y="-4.2" radius="0.8" width="0" layer="51"/>
+<circle x="-3" y="-4.2" radius="0.8" width="0" layer="51"/>
+<circle x="0" y="4.2" radius="0.7" width="0" layer="51"/>
+<circle x="-3" y="4.2" radius="0.8" width="0" layer="51"/>
+<circle x="3" y="4.2" radius="0.8" width="0" layer="51"/>
 </package>
 <package name="JTP-1130">
 <pad name="2" x="-3.25" y="-2.25" drill="1" shape="octagon"/>
