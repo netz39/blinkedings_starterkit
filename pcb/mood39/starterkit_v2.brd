@@ -14,10 +14,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -33,9 +33,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -43,8 +43,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -56,8 +56,8 @@
 </layers>
 <board>
 <plain>
-<text x="21.9075" y="0.9525" size="1.27" layer="16" font="vector" ratio="13" rot="MR0">mood39 v2.2</text>
-<text x="14.9225" y="32.7025" size="1.27" layer="16" font="vector" ratio="13" rot="MR0">Netz39 e.V.</text>
+<text x="14.605" y="32.7025" size="1.27" layer="16" font="vector" ratio="13" rot="MR0">mood39 v2.2</text>
+<text x="26.67" y="0.9525" size="1.27" layer="16" font="vector" ratio="13" rot="MR0">Netz39 e.V. 2013</text>
 <text x="13.0175" y="24.4475" size="1.016" layer="16" font="vector" ratio="13" rot="MR0">CC-BY-SA</text>
 <wire x1="3.5" y1="0" x2="32.5" y2="0" width="0" layer="20"/>
 <wire x1="36" y1="3.5" x2="36" y2="32.5" width="0" layer="20"/>
@@ -67,8 +67,8 @@
 <wire x1="32.5" y1="36" x2="36" y2="32.5" width="0" layer="20" curve="-90"/>
 <wire x1="36" y1="3.5" x2="32.5" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3.5" y1="0" x2="0" y2="3.5" width="0" layer="20" curve="-90"/>
-<rectangle x1="9.8425" y1="0.9525" x2="21.9075" y2="2.2225" layer="42"/>
-<rectangle x1="3.4925" y1="32.385" x2="15.24" y2="34.29" layer="42"/>
+<rectangle x1="9.8425" y1="0.9525" x2="26.67" y2="1.905" layer="42"/>
+<rectangle x1="2.8575" y1="32.7025" x2="14.605" y2="33.655" layer="42"/>
 </plain>
 <libraries>
 <library name="led">
