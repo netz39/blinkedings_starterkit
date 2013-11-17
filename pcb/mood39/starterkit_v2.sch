@@ -14884,8 +14884,8 @@ Rastermaß 5,08 mm</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,129.777,26.8012,JP2,,,,,"/>
-<approved hash="113,1,129.777,39.5012,JP3,,,,,"/>
+<approved hash="113,1,129.777,24.2612,JP2,,,,,"/>
+<approved hash="113,1,129.777,31.8812,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
