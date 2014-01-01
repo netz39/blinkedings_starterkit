@@ -14028,7 +14028,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-2.54" y1="-4.318" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-7.62" y2="-4.445" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="square" first="yes"/>
 <pad name="2" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
 <pad name="3" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="0.9144" shape="octagon"/>

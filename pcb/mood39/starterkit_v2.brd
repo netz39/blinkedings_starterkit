@@ -16,12 +16,12 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -1324,7 +1324,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-2.54" y1="-4.318" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-7.62" y2="-4.445" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="square" first="yes"/>
 <pad name="2" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
 <pad name="3" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="0.9144" shape="octagon"/>
@@ -1925,9 +1925,8 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="30.48" x2="21.59" y2="31.75" width="0.3048" layer="16"/>
 <wire x1="30.7975" y1="28.2575" x2="27.305" y2="28.2575" width="0.3048" layer="16"/>
 <wire x1="27.305" y1="28.2575" x2="26.035" y2="29.5275" width="0.3048" layer="16"/>
-<wire x1="26.035" y1="29.5275" x2="26.035" y2="32.7025" width="0.3048" layer="16"/>
-<wire x1="26.035" y1="32.7025" x2="25.0825" y2="33.655" width="0.3048" layer="16"/>
-<wire x1="25.0825" y1="33.655" x2="19.05" y2="33.655" width="0.3048" layer="16"/>
+<wire x1="26.035" y1="29.5275" x2="26.035" y2="33.655" width="0.3048" layer="16"/>
+<wire x1="26.035" y1="33.655" x2="19.05" y2="33.655" width="0.3048" layer="16"/>
 <wire x1="33.655" y1="25.4" x2="30.7975" y2="28.2575" width="0.3048" layer="16"/>
 <wire x1="5.3975" y1="20.6375" x2="6.35" y2="20.6375" width="0.3048" layer="16"/>
 <wire x1="6.35" y1="20.6375" x2="6.985" y2="21.2725" width="0.3048" layer="16"/>
@@ -2006,9 +2005,8 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="33.02" x2="19.05" y2="31.75" width="0.3048" layer="16"/>
 <wire x1="33.655" y1="22.86" x2="33.655" y2="23.8125" width="0.3048" layer="16"/>
 <wire x1="33.655" y1="23.8125" x2="32.0675" y2="25.4" width="0.3048" layer="16"/>
-<wire x1="20.32" y1="33.02" x2="24.765" y2="33.02" width="0.3048" layer="16"/>
-<wire x1="24.765" y1="33.02" x2="25.4" y2="32.385" width="0.3048" layer="16"/>
-<wire x1="25.4" y1="32.385" x2="25.4" y2="29.21" width="0.3048" layer="16"/>
+<wire x1="20.32" y1="33.02" x2="25.4" y2="33.02" width="0.3048" layer="16"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="29.21" width="0.3048" layer="16"/>
 <wire x1="25.4" y1="29.21" x2="26.9875" y2="27.6225" width="0.3048" layer="16"/>
 <wire x1="26.9875" y1="27.6225" x2="30.48" y2="27.6225" width="0.3048" layer="16"/>
 <wire x1="32.0675" y1="26.035" x2="32.0675" y2="25.4" width="0.3048" layer="16"/>
@@ -2984,16 +2982,16 @@ design rules under a new name.</description>
 <approved hash="6,16,f222045204e8f298"/>
 <approved hash="6,16,1aa1d16283636121"/>
 <approved hash="6,16,42a22db2659e970e"/>
-<approved hash="6,16,e501a444e61c2923"/>
 <approved hash="6,16,041aaa82aad90441"/>
+<approved hash="6,16,e501a444e61c2923"/>
 <approved hash="6,16,a090f62cf7aba117"/>
 <approved hash="6,16,161724b325901734"/>
 <approved hash="6,16,6e0fe4abe4106eb4"/>
 <approved hash="6,16,145d0e4773fdc4c4"/>
 <approved hash="6,16,32af0a6b7b2b5a2f"/>
 <approved hash="6,16,2bef556f55622be2"/>
-<approved hash="6,16,3131860b8642bfb4"/>
 <approved hash="6,16,5f8f98a412b84ac8"/>
+<approved hash="6,16,3131860b8642bfb4"/>
 <approved hash="6,16,36bf09f01243ac37"/>
 <approved hash="5,16,5c5097fee8f3d9aa"/>
 <approved hash="5,16,509f59f2a792aef3"/>
