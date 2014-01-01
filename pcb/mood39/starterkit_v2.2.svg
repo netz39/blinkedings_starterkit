@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6503208"
-     inkscape:cx="375.06928"
-     inkscape:cy="747.95023"
+     inkscape:zoom="1.3854545"
+     inkscape:cx="372.04725"
+     inkscape:cy="779.52756"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
        sodipodi:nodetypes="cccccccccc" />
     <g
        id="g37644"
-       transform="translate(-89.763937,33.595975)">
+       transform="translate(-89.763937,-23.096938)">
       <g
          id="g4413-6"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -7563,7 +7563,7 @@
     </g>
     <g
        id="g37644-9"
-       transform="translate(44.881732,33.595975)">
+       transform="translate(44.881732,-23.096938)">
       <g
          id="g4413-6-0"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -15065,7 +15065,7 @@
     </g>
     <g
        id="g37644-7"
-       transform="translate(179.5274,33.595975)">
+       transform="translate(179.5274,-23.096938)">
       <g
          id="g4413-6-3"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -22567,7 +22567,7 @@
     </g>
     <g
        id="g37644-8"
-       transform="translate(314.17307,33.595975)">
+       transform="translate(314.17307,-23.096938)">
       <g
          id="g4413-6-7"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -30069,7 +30069,7 @@
     </g>
     <g
        id="g37644-2"
-       transform="translate(-89.763937,-101.04969)">
+       transform="translate(-89.763937,-157.7426)">
       <g
          id="g4413-6-34"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -37571,7 +37571,7 @@
     </g>
     <g
        id="g37644-5"
-       transform="translate(44.881732,-101.04969)">
+       transform="translate(44.881732,-157.7426)">
       <g
          id="g4413-6-9"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -45073,7 +45073,7 @@
     </g>
     <g
        id="g37644-6"
-       transform="translate(179.5274,-101.04969)">
+       transform="translate(179.5274,-157.7426)">
       <g
          id="g4413-6-8"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -52575,7 +52575,7 @@
     </g>
     <g
        id="g37644-3"
-       transform="translate(314.17307,-101.04969)">
+       transform="translate(314.17307,-157.7426)">
       <g
          id="g4413-6-1"
          transform="matrix(-0.09532965,0,0,0.09329719,343.42435,312.14336)">
@@ -60075,5 +60075,15 @@
         </g>
       </g>
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       d="m 124.01576,389.76376 c -13.69842,0 -24.803162,11.10475 -24.803162,24.80314 l 24.803162,0 0,-24.80314 z m 0,24.80314 0,24.80316 c 13.69839,0 24.80314,-11.10474 24.80314,-24.80316 l -24.80314,0 z"
+       id="rect19265" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline"
+       d="m 620.07875,389.76376 c -13.69842,0 -24.80316,11.10475 -24.80316,24.80314 l 24.80316,0 0,-24.80314 z m 0,24.80314 0,24.80316 c 13.69839,0 24.80314,-11.10474 24.80314,-24.80316 l -24.80314,0 z"
+       id="rect19265-8" />
   </g>
 </svg>
