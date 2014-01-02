@@ -14588,10 +14588,10 @@ Rastermaß 5,08 mm</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="rot lc"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
-<part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value=""/>
+<part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value="TASTER 9305"/>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device="" value="USBD+"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device="" value="USBD-"/>
 <part name="U$2" library="n39" deviceset="USB_B" device="S" value="USB_BS"/>
 </parts>
 <sheets>
