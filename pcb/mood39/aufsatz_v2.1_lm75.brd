@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -61,6 +61,7 @@
 <wire x1="14.9225" y1="20.955" x2="0" y2="20.955" width="0" layer="20"/>
 <wire x1="0" y1="20.955" x2="0" y2="0" width="0" layer="20"/>
 <circle x="2.8575" y="2.8575" radius="1.905" width="0" layer="41"/>
+<text x="7.9375" y="13.335" size="1.016" layer="1" ratio="13" rot="R90">LM75</text>
 </plain>
 <libraries>
 <library name="n39">
