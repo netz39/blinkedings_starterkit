@@ -1,0 +1,29 @@
+Partlist
+
+Exported from starterkit_v2.brd at 02.01.14 16:28
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package       Library  Position (mil)        Orientation
+
+C1       100n           C0805         rcl      (1325 425)            MR270
+C2       2.2u           E2-5          rcl      (1175 425)            R270
+IC1      TINY85         DIL08         atmel    (1175 750)            R180
+IC2      LP2950         TO92          v-reg    (975 200)             R270
+JP1      I2CDAT         1X01          pinhead  (125 875)             R0
+JP2      USBD+          1X01          pinhead  (425 675)             R0
+JP3      USBD-          1X01          pinhead  (425 775)             R0
+LED1     LRTB_G6SG      LRTB_G6SG     led      (708.66142 708.66142) MR0
+LED2     rot lc         LED3MM        led      (200 400)             R225
+R1       10k            R0805         rcl      (1325 750)            MR90
+R2       120            R0805         rcl      (600 1000)            MR90
+R3       100            R0805         rcl      (725 462.5)           MR180
+R4       180            R0805         rcl      (700 1025)            MR90
+R5       100k           ALPS_RK09K113 n39      (325 1150)            R0
+R6       1.5k           R0805         rcl      (287.5 650)           MR270
+S1       TASTER 9305    JTP-1130      n39      (200 650)             R90
+SV1      ISP            ML6           con-ml   (850 1200)            R180
+U$1      RIACON_101_2   RIACON_101_2  n39      (575 275)             R0
+U$2      USB_BS         USB_B_UP-S    n39      (575 212.5)           R0

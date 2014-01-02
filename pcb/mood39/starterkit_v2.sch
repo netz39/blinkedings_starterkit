@@ -14028,7 +14028,7 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="-2.54" y1="-4.318" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-3.81" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-4.445" x2="-7.62" y2="-4.445" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.9144" shape="square" first="yes"/>
 <pad name="2" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
 <pad name="3" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
 <pad name="4" x="0" y="1.27" drill="0.9144" shape="octagon"/>
@@ -14309,6 +14309,12 @@ Rastermaß 5,08 mm</description>
 <circle x="0" y="0" radius="3.201559375" width="0.2032" layer="51"/>
 <pad name="P$1" x="-4.4" y="0" drill="2.1" shape="square"/>
 <pad name="P$2" x="4.4" y="0" drill="2.1" shape="square"/>
+<circle x="0" y="-4.2" radius="0.7" width="0" layer="51"/>
+<circle x="3" y="-4.2" radius="0.8" width="0" layer="51"/>
+<circle x="-3" y="-4.2" radius="0.8" width="0" layer="51"/>
+<circle x="0" y="4.2" radius="0.7" width="0" layer="51"/>
+<circle x="-3" y="4.2" radius="0.8" width="0" layer="51"/>
+<circle x="3" y="4.2" radius="0.8" width="0" layer="51"/>
 </package>
 <package name="JTP-1130">
 <pad name="2" x="-3.25" y="-2.25" drill="1" shape="octagon"/>
@@ -14582,10 +14588,10 @@ Rastermaß 5,08 mm</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="rot lc"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
-<part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value=""/>
+<part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value="TASTER 9305"/>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device="" value="USBD+"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device="" value="USBD-"/>
 <part name="U$2" library="n39" deviceset="USB_B" device="S" value="USB_BS"/>
 </parts>
 <sheets>
@@ -14878,8 +14884,8 @@ Rastermaß 5,08 mm</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,129.777,26.8012,JP2,,,,,"/>
-<approved hash="113,1,129.777,39.5012,JP3,,,,,"/>
+<approved hash="113,1,129.777,24.2612,JP2,,,,,"/>
+<approved hash="113,1,129.777,31.8812,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>

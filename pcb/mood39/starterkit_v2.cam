@@ -3,13 +3,14 @@ Description=""
 Section=Sec_1
 
 [Sec_1]
+Name[de]="*"
 Name[en]="*"
 Prompt=""
 Device="EPS"
 Wheel=""
 Rack=""
 Scale=1
-Output="C:/Dokumente und Einstellungen/adahl/Eigene Dateien/GitHub/netz39-avr_starterkit/pcb/mood39/starterkit_v2.1.eps"
+Output="/home/alex/Verschiedenes/Netz39/github/lespocky/netz39-avr_starterkit/pcb/mood39/starterkit_v2.2.eps"
 Flags="0 0 0 0 0 1 0"
 Emulate="0"
 Offset="0.0mil 0.0mil"
