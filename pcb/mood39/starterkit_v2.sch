@@ -14586,7 +14586,7 @@ Rastermaß 5,08 mm</description>
 <part name="R5" library="n39" deviceset="ALPS_RK09K113" device="" value="100k"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device="" value="I2CDAT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="3MM" value="rot lc"/>
+<part name="LED2" library="led" deviceset="LED" device="3MM" value="gr lc"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1.5k"/>
 <part name="S1" library="n39" deviceset="JTP-1130" device="" technology="C" value="TASTER 9305"/>
 <part name="U$1" library="n39" deviceset="RIACON_101_2" device=""/>
@@ -14883,10 +14883,6 @@ Rastermaß 5,08 mm</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,129.777,24.2612,JP2,,,,,"/>
-<approved hash="113,1,129.777,31.8812,JP3,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
